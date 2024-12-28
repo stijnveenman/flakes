@@ -1,7 +1,7 @@
 {
   description = "Nix Community Templates";
 
-  outputs = {}: let
+  outputs = {self}: let
     mkWelcomeText = {
       name,
       description,
