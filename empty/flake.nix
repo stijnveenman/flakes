@@ -14,7 +14,7 @@
     flake-utils.lib.eachDefaultSystem (
       system: let
         pkgs = import nixpkgs {
-          inherit system overlays;
+          inherit system;
         };
       in {
         devShells.default = with pkgs;
