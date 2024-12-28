@@ -32,6 +32,15 @@
         '';
         path = ./empty;
       };
+      rust = mkWelcomeText {
+        name = "Empty Template";
+        description = ''
+          A rust template with rust overlay in the flake
+
+          change the `name` in the `Cargo.toml`
+        '';
+        path = ./empty;
+      };
     };
   };
 }
