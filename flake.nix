@@ -39,7 +39,7 @@
 
           change the `name` in the `Cargo.toml`
         '';
-        path = ./empty;
+        path = ./rust;
       };
     };
   };
