@@ -16,10 +16,10 @@
         ${description}
 
         ## Other tips
-        To load the new devShell run:
+        Setup the git repo
 
         ```
-            direnv allow
+        git init
         ```
       '';
     };
